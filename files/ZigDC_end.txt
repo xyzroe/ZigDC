@@ -1,0 +1,22 @@
+Board type: CC2530 + RFX2401 (configure PA control pins!!!)
+Device type: End device without routing
+ Transmit enable (TXEN): P11, Receive enable (RXEN): P10
+Manufacturer name: xyzroe
+Model ID: ZigDC
+Update firmware's timestamp : 2024-07-05
+Status LED: P17, Sending reports
+Set default reporting interval (s): 60
+
+Output pins:
+P34: Output 1, Uptime (sec)
+P33: Output 2, GPIO (Role: Generic)
+P05: Output 3, TI INA3221, External pull-up (Address (dec): 65, Channel: All)
+P06: Output 4, I2C SCL/SPI CLK, External pull-up
+P05: Output 5, TI INA3221, External pull-up (Address (dec): 64, Channel: All)
+P05: Output 6, Temperature sensor (I2C), External pull-up (Address (dec): 112, Type: SHTC3)
+
+Input pins:
+P20: Input 1, GPIO, Pull-up, Long, Double, Tripple (Bind command: On/Off)
+P36: Input 2, Internal temperature
+P04: Input 7, GPIO, Pull-up (Bind command: On/Off)
+P16: Input 8, GPIO, Pull-up (Bind command: On/Off)

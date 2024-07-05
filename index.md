@@ -4,7 +4,9 @@ hide_title: true
 hide: true                          
 ---
 ### About
-
+E18-MS1-PA2, 2xINA3221, SHTC3
+0 - 26V, 8mV resolution
++/- 5.2A, 1.3mA resolution
 
 ### Overview
 <div align="center">
@@ -14,19 +16,21 @@ hide: true
 
 ### Photos
 <div align="center">
-<img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/1.jpeg">
-<img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/2.jpeg">
-</div>
-<div align="center">
-<img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/3.jpeg">
-<img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/4.jpeg">
+<img width="85%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/ZigDC.png">
 </div>
 
+
 ### Schematic
-![Schematic](https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/Schematic.png)
+[PDF](./files/Schematic.pdf)  
+![Schematic](https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/Schematic.png) 
 
 ### Where to buy?
 <a href="https://www.tindie.com/stores/mind/?ref=offsite_badges&utm_source=sellers_xyzroe&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" height="120"></a>
+
+### Firmware 
+PTVO firmware constructor was used to build the firmware. There are two versions:
+- Router - Supports routing but doesn't report the uptime of the device. [hex](./files/ZigDC_router.hex) 🔵
+- End Device - No router functions, no SHTC3 sensor (temperature & humidity), but reports the uptime of the device. [hex](./files/ZigDC_end.hex) 🟠
 
 ### DIY
 - [iBOM page](./files/iBOM.html) 🌍
@@ -38,5 +42,3 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 [![badges](https://badges.aleen42.com/src/buymeacoffee.svg)](https://www.buymeacoffee.com/xyzroe) 
 [![badges](https://badges.aleen42.com/src/github.svg)](https://github.com/sponsors/xyzroe)
 [![badges](https://badges.aleen42.com/src/paypal.svg)](http://paypal.me/xyzroe) 
-
-### Inspired by
