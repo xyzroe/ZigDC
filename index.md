@@ -31,6 +31,11 @@ E18-MS1-PA2, 2xINA3221, SHTC3
 PTVO firmware constructor was used to build the firmware. There are two versions:
 - Router - Supports routing but doesn't report the uptime of the device. [hex](./files/ZigDC_router.hex) 🔵 [txt](./files/ZigDC_router.txt) 
 - End Device - No router functions, no SHTC3 sensor (temperature & humidity), but reports the uptime of the device. [hex](./files/ZigDC_end.hex) 🟠 [txt](./files/ZigDC_end.txt) 
+  
+#### Use PTVO version 2024-01-04 because newer version use different clusters and don't support 3 channels on 1 endpoint.
+
+### Support 
+Currently only supports in zigbee2mqtt. (Without external converter)
 
 ### DIY
 - [iBOM page](./files/iBOM.html) 🌍
