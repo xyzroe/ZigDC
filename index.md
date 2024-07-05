@@ -11,12 +11,12 @@ E18-MS1-PA2, 2xINA3221, SHTC3
 
 ### Overview
 <div align="center">
-<img width="60%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/top.png">
-<img width="60%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/bottom.png">
+<img width="48%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/top.png">
+<img width="48%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/bottom.png">
 </div>
 
 <div align="center">
-<img width="60%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/ZigDC.png">
+<img width="55%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/ZigDC.png">
 </div>
 
 
