@@ -1,5 +1,5 @@
 title: ZigDC
-description: Zigbee based 6ch DC power meter (V, A, W)
+description: Zigbee based 6ch DC power meter. 0 - 26V, +/- 5.2A. 2xINA3221 + SHTC3.
 
 email: xyzroe@mind.in.ua
 avatar: https://avatars.githubusercontent.com/u/6440415?v=4
