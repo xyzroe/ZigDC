@@ -11,13 +11,12 @@ E18-MS1-PA2, 2xINA3221, SHTC3
 
 ### Overview
 <div align="center">
-<img width="30%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/top.png">
-<img width="30%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/bottom.png">
+<img width="60%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/top.png">
+<img width="60%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/bottom.png">
 </div>
 
-### Photos
 <div align="center">
-<img width="85%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/ZigDC.png">
+<img width="60%" src="https://raw.githubusercontent.com/xyzroe/ZigDC/master/images/ZigDC.png">
 </div>
 
 
@@ -30,8 +29,8 @@ E18-MS1-PA2, 2xINA3221, SHTC3
 
 ### Firmware 
 PTVO firmware constructor was used to build the firmware. There are two versions:
-- Router - Supports routing but doesn't report the uptime of the device. [hex](./files/ZigDC_router.hex) 🔵
-- End Device - No router functions, no SHTC3 sensor (temperature & humidity), but reports the uptime of the device. [hex](./files/ZigDC_end.hex) 🟠
+- Router - Supports routing but doesn't report the uptime of the device. [hex](./files/ZigDC_router.hex) 🔵 [txt](./files/ZigDC_router.txt) 
+- End Device - No router functions, no SHTC3 sensor (temperature & humidity), but reports the uptime of the device. [hex](./files/ZigDC_end.hex) 🟠 [txt](./files/ZigDC_end.txt) 
 
 ### DIY
 - [iBOM page](./files/iBOM.html) 🌍
