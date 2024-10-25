@@ -1,7 +1,7 @@
 ---
 layout: page
 hide_title: true
-hide: true                          
+hide: true
 ---
 
 ### About
