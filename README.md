@@ -1,9 +1,4 @@
 # ZigDC
----
-layout: page
-hide_title: true
-hide: true                          
----
 
 ### About
 Zigbee based 6ch DC power meter
